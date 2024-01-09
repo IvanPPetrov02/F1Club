@@ -1,0 +1,19 @@
+﻿@page
+@model F1ClubWeb.Pages.DriverDetailsModel
+@{
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://st2.depositphotos.com/2232796/9851/i/450/depositphotos_98518264-stock-photo-race-car-driver.jpg" class="img-fluid" alt="Driver Image">
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-danger">@Model.Driver.FirstName @Model.Driver.LastName</h2>
+            <p class="text-danger">Number: @Model.Driver.Number</p>
+            <p class="text-danger">Date of Birth: @Model.Driver.DateOfBirth.ToShortDateString()</p>
+            <p class="text-danger">Team: @Model.Driver.Team.Name</p>
+            <p class="text-danger">Number of Wins: @Model.Wins</p>
+            <a href="/Drivers" class="btn btn-danger mt-3">Back to Drivers</a>
+        </div>
+    </div>
+</div>

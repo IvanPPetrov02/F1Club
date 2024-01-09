@@ -1,0 +1,47 @@
+﻿@page
+@model F1ClubWeb.Pages.ChangePersonalInfoModel
+@{
+}
+<a asp-page="Profile" class="btn btn-secondary float-left mb-4"><i class="fa fa-chevron-left"></i> Back</a>
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title mb-4">Profile Information</h2>
+        <form asp-page-handler="SaveData" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="firstname" class="form-control" value="@Model.LoggedUser.FirstName" asp-for="ChangedUser.FirstName" />
+                    <span asp-validation-for="LoggedUser.FirstName"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="lastname" class="form-control" value="@Model.LoggedUser.LastName" asp-for="ChangedUser.LastName" />
+                    <span asp-validation-for="LoggedUser.LastName"></span>
+                </div>
+            </div>
+            <input type="hidden" name="password" value="@Model.LoggedUser.Password" asp-for="ChangedUser.Password" />
+            <div class="form-row">
+                <div class="formgroup col-md-6">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" value="@Model.LoggedUser.Email" asp-for="ChangedUser.Email" />
+                    <span asp-validation-for="LoggedUser.Email"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="date-of-birth">Date of Birth:</label>
+                    <input type="date" id="date-of-birth" name="dateofbirth" class="form-control" value="@Model.LoggedUser.DateOfBirth.ToString("yyyy-MM-dd")" asp-for="DateOfBirth" />
+                    <span asp-validation-for="DateOfBirth"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phonenumber" class="form-control" value="@Model.LoggedUser.PhoneNumber" asp-for="ChangedUser.PhoneNumber" />
+                    <span asp-validation-for="ChangedUser.PhoneNumber"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-danger mt-3">Save Changes</button>
+        </form>
+    </div>
+</div>
+

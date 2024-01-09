@@ -1,0 +1,22 @@
+﻿@page
+@model F1ClubWeb.Pages.TeamsModel
+@{
+}
+<div class="container mt-5">
+    <div class="row">
+        @foreach (var team in Model.Teams)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card d-flex flex-column h-100">
+                    <img src="@* @team.ImageUrl *@" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Team Image">
+                    <div class="card-body flex-fill d-flex flex-column">
+                        <h2 class="text-danger">@team.Name</h2>
+                        <div class="mt-auto">
+                            <a href="/Teams/Details/@team.ID" class="btn btn-danger">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

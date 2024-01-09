@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Driver pages\AddDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Driver pages\DriverMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Driver pages\EditDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GP pages\AddCircuit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GP pages\AddGP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GP pages\AddGPResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GP pages\CircuitMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GP pages\EditCircuit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GP pages\EditGP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GP pages\GPMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GP pages\GPStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profile pages\AddProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profile pages\EditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profile pages\ProfileMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="StatisticsMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Team pages\AddCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Team pages\AddTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Team pages\CarMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Team pages\EditCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Team pages\EditTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Team pages\TeamMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

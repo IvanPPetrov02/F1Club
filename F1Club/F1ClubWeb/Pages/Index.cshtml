@@ -1,0 +1,82 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <h1 class="display-4 text-danger">Welcome @User.Identity.Name to F1Club</h1>
+        }
+        else
+        {
+            <h1 class="display-4 text-danger">Welcome to F1Club</h1>
+        }
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+            <div class="card d-flex flex-column h-100">
+                <img src="https://media.nbcboston.com/2023/06/230618-max-verstappen-getty.jpg?quality=85&strip=all&resize=1200%2C675" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Drivers Image">
+                <div class="card-body flex-fill d-flex flex-column">
+                    <h2 class="text-danger">Drivers</h2>
+                    <p class="text-danger">Explore the profiles and statistics of F1 drivers.</p>
+                    <div class="mt-auto">
+                        <a href="/Drivers" class="btn btn-danger">View Drivers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card d-flex flex-column h-100">
+                <img src="https://i.guim.co.uk/img/media/cefc0674922217b6e0d646d338f08412ef9b9ff5/54_207_4975_2985/master/4975.jpg?width=1300&dpr=2&s=none" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Teams Image">
+                <div class="card-body flex-fill d-flex flex-column">
+                    <h2 class="text-danger">Teams</h2>
+                    <p class="text-danger">Check out information about F1 teams and their performance.</p>
+                    <div class="mt-auto">
+                        <a href="/Teams" class="btn btn-danger">View Teams</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card d-flex flex-column h-100">
+                <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monoco_Circuit.png" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Circuits Image">
+                <div class="card-body flex-fill d-flex flex-column">
+                    <h2 class="text-danger">Circuits</h2>
+                    <p class="text-danger">Explore the circuits used in F1 races.</p>
+                    <div class="mt-auto">
+                        <a href="/Circuits" class="btn btn-danger">View Circuits</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card d-flex flex-column h-100">
+                <img src="https://media.formula1.com/content/dam/fom-website/manual/races/Japan/Race%20Index/SUT_Japanese_Grand_1543241.jpg.img.1536.high.jpg" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Grand Prix Image">
+                <div class="card-body flex-fill d-flex flex-column">
+                    <h2 class="text-danger">Grand Prix</h2>
+                    <p class="text-danger">Discover details about past and upcoming F1 Grand Prix races.</p>
+                    <div class="mt-auto">
+                        <a href="/GrandPrix" class="btn btn-danger">View Grand Prix</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card d-flex flex-column h-100">
+                <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-10/231007-Max-Verstappen-1538-4ee1fa.jpg" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Championships Image">
+                <div class="card-body flex-fill d-flex flex-column">
+                    <h2 class="text-danger">Championships</h2>
+                    <p class="text-danger">Discover past and present F1 championship details.</p>
+                    <div class="mt-auto">
+                        <a href="/Championships" class="btn btn-danger">View Championships</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

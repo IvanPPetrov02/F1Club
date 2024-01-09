@@ -1,0 +1,43 @@
+﻿@page
+@model F1ClubWeb.Pages.ProfileModel
+@{
+}
+<div class="container py-5">
+    <h1 class="mb-4">Welcome to your profile page</h1>
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title mb-4">Profile Information</h2>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" class="form-control" value="@Model.LoggedUser.FirstName" readonly />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" class="form-control" value="@Model.LoggedUser.LastName" readonly />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" value="@Model.LoggedUser.Email" readonly />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="date-of-birth">Date of Birth:</label>
+                    <input type="text" id="date-of-birth" name="date-of-birth" class="form-control" value="@Model.LoggedUser.DateOfBirth" readonly />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number" class="form-control" value="@Model.LoggedUser.PhoneNumber" readonly />
+                </div>
+            </div>
+
+            <button class="btn btn-danger mt-3"><a asp-page="ChangePersonalInfo" class="text-white">Change Info</a></button>
+
+            <button class="btn btn-danger mt-3"><a asp-page="ChangePassword" class="text-white">Change Password</a></button>
+        </div>
+    </div>
+</div>

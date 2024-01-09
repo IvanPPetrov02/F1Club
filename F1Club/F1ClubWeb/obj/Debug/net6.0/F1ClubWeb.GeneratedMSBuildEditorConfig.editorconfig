@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = F1ClubWeb
+build_property.RootNamespace = F1ClubWeb
+build_property.ProjectDir = C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/ChangePersonalInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbmdlUGVyc29uYWxJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Circuits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2lyY3VpdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/DriverDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Drivers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/GrandPrix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JhbmRQcml4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/SignOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbk91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Teams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q4e9wsdhzz

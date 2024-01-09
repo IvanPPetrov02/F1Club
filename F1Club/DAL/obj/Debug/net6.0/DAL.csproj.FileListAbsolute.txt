@@ -1,0 +1,30 @@
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\bin\Debug\net6.0\LL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\DAL\bin\Debug\net6.0\LL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\bin\Debug\net6.0\LL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\bin\Debug\net6.0\LL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\DAL\obj\Debug\net6.0\ref\DAL.dll

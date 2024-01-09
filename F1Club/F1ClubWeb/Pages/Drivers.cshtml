@@ -1,0 +1,23 @@
+﻿@page
+@model F1ClubWeb.Pages.DriversModel
+@{
+}
+<div class="container mt-5">
+    <div class="row">
+        @foreach (var driver in Model.Drivers)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card d-flex flex-column h-100">
+                    <img src="@* @driver.ImageUrl *@" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Driver Image">
+                    <div class="card-body flex-fill d-flex flex-column">
+                        <h2 class="text-danger">@driver.FirstName @driver.LastName</h2>
+                        <p class="text-danger">@driver.Number</p>
+                        <div class="mt-auto">
+                            <a asp-page="/DriverDetails" asp-route-driverId="@driver.ID" class="btn btn-danger">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,63 @@
+﻿@page
+@model F1ClubWeb.Pages.RegisterModel
+@{
+}
+<div class="container">
+	<h2>Register</h2>
+	<form method="post" asp-page-handler="Register">
+		<div class="row gx-5 ">
+			<div class="col-md-4">
+				<div class="mb-3">
+					<label asp-for="Profile.FirstName" for="FNameInput">First name:</label>
+					<input asp-for="Profile.FirstName" class="form-control text-danger" id="FNameInput" placeholder="Enter first name">
+					<span asp-validation-for="Profile.FirstName"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Profile.LastName" for="LNameInput">Last name:</label>
+					<input asp-for="Profile.LastName" class="form-control" id="LNameInput" placeholder="Enter last name">
+					<span asp-validation-for="Profile.LastName"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Profile.Email" for="EmailInput">Email address:</label>
+					<input asp-for="Profile.Email" class="form-control " id="EmailInput" aria-describedby="emailHelp" placeholder="Enter email">
+					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+					<span asp-validation-for="Profile.Email"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Profile.Password" for="PasswordInput">Password:</label>
+					<input asp-for="Profile.Password" class="form-control " id="PasswordInput" placeholder="Enter password">
+					<span asp-validation-for="Profile.Password"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="RePassword" for="RePasswordInput">Re-enter password:</label>
+					<input asp-for="RePassword" class="form-control " id="RePasswordInput" placeholder="Re-enter password">
+					<span asp-validation-for="RePassword"></span>
+				</div>
+				<button type="submit" class="btn btn-danger">Register</button>
+			</div>
+
+			<div class="col-md-4">
+				<div class="mb-3">
+					<label asp-for="DateOfBirth" for="DateOfBirthInput">Date Of Birth:</label>
+					<input type="date" asp-for="DateOfBirth" class="form-control" id="DateOfBirthInput" placeholder="Enter date of birth" />
+					<span asp-validation-for="Profile.DateOfBirth"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Profile.PhoneNumber" for="PhoneNumberInput">Phone number:</label>
+					<input asp-for="Profile.PhoneNumber" class="form-control " id="PhoneNumberInput" placeholder="Enter phone number" />
+					<span asp-validation-for="Profile.PhoneNumber"></span>
+				</div>
+			</div>
+
+		</div>
+	</form>
+
+	<div asp-validation-summary="All" class="text-warning"></div>
+	@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+	{
+		<div class="alert alert-danger">
+			@Model.ErrorMessage
+		</div>
+	}
+
+</div>

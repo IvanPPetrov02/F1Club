@@ -1,0 +1,86 @@
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.csproj.AssemblyReference.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.AssemblyInfoInputs.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.AssemblyInfo.cs
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.csproj.CoreCompileInputs.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.RazorAssemblyInfo.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.RazorAssemblyInfo.cs
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\appsettings.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.staticwebassets.runtime.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.exe
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.deps.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.runtimeconfig.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Classes.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\DAL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\LL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Classes.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\DAL.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\LL.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.F1ClubWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.F1ClubWeb.props
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.F1ClubWeb.props
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.F1ClubWeb.props
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\scopedcss\bundle\F1ClubWeb.styles.css
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\scopedcss\projectbundle\F1ClubWeb.bundle.scp.css
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.csproj.CopyComplete
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\refint\F1ClubWeb.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.genruntimeconfig.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\ref\F1ClubWeb.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\appsettings.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.staticwebassets.runtime.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.exe
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.deps.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.runtimeconfig.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\F1ClubWeb.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\DAL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\LL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\DAL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\bin\Debug\net6.0\LL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.csproj.AssemblyReference.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.AssemblyInfoInputs.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.AssemblyInfo.cs
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.csproj.CoreCompileInputs.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.RazorAssemblyInfo.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.RazorAssemblyInfo.cs
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.F1ClubWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.F1ClubWeb.props
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.F1ClubWeb.props
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.F1ClubWeb.props
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\scopedcss\bundle\F1ClubWeb.styles.css
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\scopedcss\projectbundle\F1ClubWeb.bundle.scp.css
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.csproj.CopyComplete
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\refint\F1ClubWeb.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\F1ClubWeb.genruntimeconfig.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb\obj\Debug\net6.0\ref\F1ClubWeb.dll

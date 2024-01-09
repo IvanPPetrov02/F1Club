@@ -1,0 +1,149 @@
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.exe
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.deps.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.runtimeconfig.json
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Routing.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Net.Http.Headers.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\LL.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\LL.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.AssemblyReference.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.GenerateResource.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.AssemblyInfoInputs.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.AssemblyInfo.cs
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.CoreCompileInputs.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.CopyComplete
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\refint\F1Club.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.pdb
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.genruntimeconfig.cache
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\ref\F1Club.dll
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Login.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.MainForm.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Driver_pages.DriverMainPage.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Properties.Resources.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Driver_pages.AddDriver.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Driver_pages.EditDriver.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Profile_pages.AddProfile.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Profile_pages.EditProfile.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Profile_pages.ProfileMainPage.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.AddTeam.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.EditTeam.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.TeamMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\refint\F1Club.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.AssemblyReference.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Driver_pages.AddDriver.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Driver_pages.DriverMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Driver_pages.EditDriver.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Login.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.MainForm.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Profile_pages.AddProfile.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Profile_pages.EditProfile.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Profile_pages.ProfileMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Properties.Resources.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.AddTeam.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.EditTeam.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.TeamMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.GenerateResource.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.AssemblyInfoInputs.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.AssemblyInfo.cs
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.CoreCompileInputs.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.exe
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.deps.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.runtimeconfig.json
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\F1Club.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authorization.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Routing.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.ObjectPool.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Microsoft.Net.Http.Headers.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\LL.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\LL.pdb
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.csproj.CopyComplete
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.genruntimeconfig.cache
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\ref\F1Club.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.CircuitMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.GPMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.AddCircuit.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.EditCircuit.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.AddCircuit.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.CircuitMainPage.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.EditCircuit.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.GPMainPage.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.AddGP.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.EditGP.resources
+C:\Users\Vanito\Desktop\Individual Project - F1Club\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.GPStatistics.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.AddGP.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.EditGP.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.GPStatistics.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.GP_pages.AddGPResult.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\ScottPlot.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\bin\Debug\net6.0-windows\ScottPlot.WinForms.dll
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.StatisticsMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.AddCar.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.CarMainPage.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.EditCar.resources

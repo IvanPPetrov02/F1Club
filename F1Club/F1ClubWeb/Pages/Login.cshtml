@@ -1,0 +1,37 @@
+﻿@page
+@model F1ClubWeb.Pages.LoginModel
+@{
+}
+<div class="row">
+	<div class="col-sm-4">
+		<h2>Sign in</h2>
+		<form method="post" asp-page-handler="SignIn">
+			<div class="mb-3">
+				<label asp-for="credential.Email" for="EmailInput">Email address:</label>
+				<input asp-for="credential.Email" class="form-control text-danger" id="EmailInput" placeholder="Enter Email">
+			</div>
+			<div class="mb-3">
+				<label asp-for="credential.Password" for="PasswordInput">Password:</label>
+				<input asp-for="credential.Password" class="form-control text-danger" id="PasswordInput" placeholder="Password">
+			</div>
+			<div class="mb-3 form-check">
+				<input asp-for="RememberEmail" type="checkbox" class="form-check-input" id="RememberEmail">
+				<label class="form-check-label text-danger" for="RememberEmail">Remember Email</label>
+			</div>
+			<button type="submit" class="btn btn-danger">Sign in</button>
+		</form>
+	</div>
+	<div class="col-sm-1">
+	</div>
+	<div class="col-sm-1">
+		<div class="vr" style="height: 100%"></div>
+	</div>
+	<div class="col-sm-3 center-button">
+		<p class="bigger_font">Have no account?</p>
+		<div class="center-button-a">
+			<a  asp-area="" asp-page="/Register">
+				<input class="btn btn-danger" type="button" id="confirm" value="Register">
+			</a>
+		</div>
+	</div>
+</div>
