@@ -96,7 +96,6 @@
             cbxTeams.Name = "cbxTeams";
             cbxTeams.Size = new Size(350, 33);
             cbxTeams.TabIndex = 74;
-            cbxTeams.SelectedIndexChanged += cbxTeams_SelectedIndexChanged;
             // 
             // label2
             // 
@@ -274,7 +273,6 @@
             dtpSeason.Name = "dtpSeason";
             dtpSeason.Size = new Size(131, 31);
             dtpSeason.TabIndex = 95;
-            dtpSeason.ValueChanged += dtpSeason_ValueChanged;
             // 
             // AddCar
             // 

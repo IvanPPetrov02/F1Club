@@ -18,7 +18,6 @@ namespace F1Club.Team_pages
     {
         TeamManager teamManager = new TeamManager(new TeamDAO());
         CarManager carManager = new CarManager(new CarDAO());
-        Dictionary<DateOnly, List<int>> TeamsHaveCarForSeason = new Dictionary<DateOnly, List<int>>();
         public AddCar()
         {
             InitializeComponent();
@@ -32,7 +31,6 @@ namespace F1Club.Team_pages
         }
         private void LoadTeams()
         {
-            TeamsHaveCarForSeason = carManager.TeamsHaveCarForSeason();
             List<Team>? teams = teamManager.GetAllTeamsRefresh();
             cbxTeams.DataSource = teams;
             cbxTeams.DisplayMember = "Name";
@@ -51,56 +49,43 @@ namespace F1Club.Team_pages
                 MessageBox.Show("Please fill in all the fields!");
                 return;
             }
-            else
+
+            Team team = (Team)cbxTeams.SelectedItem;
+            DateOnly seasonUsed = DateOnly.FromDateTime(dtpSeason.Value.Date);
+
+            if (TeamHasCarForYear(team.ID, seasonUsed.Year))
             {
-                int id = 0;
-                Team team = (Team)cbxTeams.SelectedItem;
-                DateOnly seasonUsed = DateOnly.FromDateTime(dtpSeason.Value.Date);
-                string chassis = tbxChasis.Text;
-                string engine = tbxEngine.Text;
-                double handlingScore = (double)nudHandling.Value;
-                double accelerationScore = (double)nudAcceleration.Value;
-                double breakingScore = (double)nudBreaking.Value;
-                int topSpeedPossible = (int)nudTopSpeed.Value;
-                Car car = new Car(id, team, seasonUsed, chassis, engine, handlingScore, accelerationScore, breakingScore, topSpeedPossible);
-                carManager.AddCar(car);
-                MessageBox.Show("Car added!");
-                this.Close();
+                MessageBox.Show($"The team {team.Name} already has a car registered for the season {seasonUsed.Year}. Please change the year or the team.", "Car Already Exists", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            string chassis = tbxChasis.Text;
+            string engine = tbxEngine.Text;
+            double handlingScore = (double)nudHandling.Value;
+            double accelerationScore = (double)nudAcceleration.Value;
+            double breakingScore = (double)nudBreaking.Value;
+            int topSpeedPossible = (int)nudTopSpeed.Value;
+
+            Car car = new Car(0,team, seasonUsed, chassis, engine, handlingScore, accelerationScore, breakingScore, topSpeedPossible);
+            carManager.AddCar(car);
+
+            MessageBox.Show("Car added!");
+            this.Close();
         }
+
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void cbxTeams_SelectedIndexChanged(object sender, EventArgs e)
+
+        private bool TeamHasCarForYear(int teamId, int year)
         {
-            if (cbxTeams.SelectedValue is int selectedTeamId)
-            {
-                UpdateSeasonPicker(selectedTeamId);
-            }
+            Dictionary<DateOnly, List<int>> TeamsHaveCarForSeason = new Dictionary<DateOnly, List<int>>();
+            TeamsHaveCarForSeason = carManager.TeamsHaveCarForSeason();
+            return TeamsHaveCarForSeason.TryGetValue(new DateOnly(year, 1, 1), out List<int> teams) && teams.Contains(teamId);
         }
 
-        private void UpdateSeasonPicker(int teamId)
-        {
-            int currentYear = dtpSeason.Value.Year;
-            dtpSeason.MinDate = new DateTime(currentYear - 10, 1, 1);
-            dtpSeason.MaxDate = new DateTime(currentYear + 10, 1, 1);
-
-            if (TeamsHaveCarForSeason.TryGetValue(new DateOnly(currentYear, 1, 1), out List<int> teams) && teams.Contains(teamId))
-            {
-                dtpSeason.Value = new DateTime(currentYear + 1, 1, 1);
-                MessageBox.Show($"The team already has a car registered for the year {currentYear}. Advancing to {currentYear + 1}.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
-        private void dtpSeason_ValueChanged(object sender, EventArgs e)
-        {
-            if (cbxTeams.SelectedValue is int selectedTeamId)
-            {
-                UpdateSeasonPicker(selectedTeamId);
-            }
-        }
     }
 }

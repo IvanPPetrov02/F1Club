@@ -86,7 +86,8 @@ namespace LL.GP_related
         public List<GP> GetAllGPs()
         {
             RefreshGPsFromDatabase();
-            return GPs;
+            return GPs.OrderByDescending(gp => gp.DateOfGP).ToList();
+
         }
 
         public GP GetGPByID(int id)
