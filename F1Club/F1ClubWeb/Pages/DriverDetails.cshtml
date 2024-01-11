@@ -12,8 +12,30 @@
             <p class="text-danger">Number: @Model.Driver.Number</p>
             <p class="text-danger">Date of Birth: @Model.Driver.DateOfBirth.ToShortDateString()</p>
             <p class="text-danger">Team: @Model.Driver.Team.Name</p>
-            <p class="text-danger">Number of Wins: @Model.Wins</p>
+            <p class="text-danger">Number of GP wins: @Model.Wins</p>
+            <p class="text-danger">Number of championship wins: @Model.ChampionshipWins</p>
             <a href="/Drivers" class="btn btn-danger mt-3">Back to Drivers</a>
+        </div>
+        <div class="col-md-12 mt-4">
+            <h3 class="text-danger">Season Points</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Season</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var seasonPoint in Model.SeasonPoints)
+                    {
+                        <tr>
+                            <td>@seasonPoint.Season</td>
+                            <td>@seasonPoint.Points</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
+

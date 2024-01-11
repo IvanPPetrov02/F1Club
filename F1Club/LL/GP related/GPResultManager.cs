@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LL.GP_related
 {
-    public class GPResultManager:IGPResultPrediction
+    public class GPResultManager
     {
         IGPResultDAO gpResultDAO;
 
@@ -57,6 +57,12 @@ namespace LL.GP_related
             {
                 return;
             }
+        }
+
+        public List<GPResult> GetAllGPResults()
+        {
+            RefreshGPsFromDatabase();
+            return GPResults;
         }
 
         public List<GPResult> GetAllGPResultsByGPID(int gpid)
@@ -140,12 +146,6 @@ namespace LL.GP_related
             return gPResults.Find(gpResult => gpResult.MaxSpeed == gPResults.Max(gpResult => gpResult.MaxSpeed));
         }
 
-        private List<GPResult> GetAllGPResults()
-        {
-            PopulateIfEmpty();
-            return GPResults;
-        }
-
         public Dictionary<int, (string FullName, int Wins)> GetAllDriversWins()
         {
             PopulateIfEmpty();
@@ -187,22 +187,134 @@ namespace LL.GP_related
             return wins;
         }
 
-        public List<Driver> PredictPodium(List<Driver> drivers)
+        public List<(int Season, int Points)> GetDriverPointsForAllSeasons(int driverId)
         {
             PopulateIfEmpty();
             List<GPResult> gpResults = GetAllGPResults();
-            List<Driver> podium = new List<Driver>();
+            List<int> seasons = SeasonsPlayedByDriver(driverId);
+            List<(int Season, int Points)> seasonPoints = new List<(int Season, int Points)>();
+
+            foreach (int season in seasons)
+            {
+                int points = 0;
+                foreach (GPResult gpResult in gpResults)
+                {
+                    if (gpResult.Driver.ID == driverId && gpResult.GP.DateOfGP.Year == season)
+                    {
+                        points += GetPointsBasedOnPlace(gpResult.Place);
+                    }
+                }
+                seasonPoints.Add((season, points));
+            }
+
+            return seasonPoints;
+        }
+
+
+        private int GetPointsBasedOnPlace(int place)
+        {
+            switch (place)
+            {
+                case 1: return 25;
+                case 2: return 18;
+                case 3: return 15;
+                case 4: return 12;
+                case 5: return 10;
+                case 6: return 8;
+                case 7: return 6;
+                case 8: return 4;
+                case 9: return 2;
+                case 10: return 1;
+                default: return 0;
+            }
+        }
+
+        public List<int> SeasonsPlayedByDriver(int driverid)
+        {
+            PopulateIfEmpty();
+            List<GPResult> gpResults = GetAllGPResults();
+            List<int> seasons = new List<int>();
 
             foreach (GPResult gpResult in gpResults)
             {
-                if (gpResult.Place <= 3)
+                if (gpResult.Driver.ID == driverid)
                 {
-                    podium.Add(gpResult.Driver);
+                    if (!seasons.Contains(gpResult.GP.DateOfGP.Year))
+                    {
+                        seasons.Add(gpResult.GP.DateOfGP.Year);
+                    }
                 }
             }
 
-            return podium;
+            return seasons;
         }
 
+        private Team GetTeamById(int teamId)
+        {
+            PopulateIfEmpty();
+            List<GPResult> gpResults = GetAllGPResults();
+            return gpResults.First(gpResult => gpResult.Driver.Team.ID == teamId).Driver.Team;
+        }
+
+        public List<(int Rank, Team Team, double AveragePosition)> GetTeamsAveragePositions()
+        {
+            PopulateIfEmpty();
+            List<GPResult> gpResults = GetAllGPResults();
+            Dictionary<int, List<int>> teamPositions = new Dictionary<int, List<int>>();
+
+            foreach (GPResult gpResult in gpResults)
+            {
+                int teamId = gpResult.Driver.Team.ID;
+                if (!teamPositions.ContainsKey(teamId))
+                {
+                    teamPositions[teamId] = new List<int>();
+                }
+                teamPositions[teamId].Add(gpResult.Place);
+            }
+
+            var teamAverages = teamPositions.Select(tp =>
+                new {
+                    TeamId = tp.Key,
+                    AveragePosition = tp.Value.Average()
+                });
+
+            var rankedTeams = teamAverages.OrderBy(ta => ta.AveragePosition)
+                                          .Select((ta, index) =>
+                                              (Rank: index + 1, Team: GetTeamById(ta.TeamId), AveragePosition: ta.AveragePosition))
+                                          .ToList();
+
+            return rankedTeams;
+        }
+
+        public double GetTeamAveragePositionById(int teamId)
+        {
+            PopulateIfEmpty();
+            List<GPResult> gpResults = GetAllGPResults();
+            List<int> teamPositions = new List<int>();
+
+            foreach (GPResult gpResult in gpResults)
+            {
+                if (gpResult.Driver.Team.ID == teamId)
+                {
+                    teamPositions.Add(gpResult.Place);
+                }
+            }
+
+            if (!teamPositions.Any())
+            {
+                return -1;
+            }
+
+            double averagePosition = teamPositions.Average();
+
+            return averagePosition;
+        }
+
+        public bool GPHasResults(int gpid)
+        {
+            PopulateIfEmpty();
+            List<GPResult> gpResults = GetAllGPResults();
+            return gpResults.Any(gpResult => gpResult.GP.ID == gpid);
+        }
     }
 }

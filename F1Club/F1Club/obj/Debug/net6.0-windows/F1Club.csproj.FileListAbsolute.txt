@@ -147,3 +147,4 @@ C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-
 C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.AddCar.resources
 C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.CarMainPage.resources
 C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.Team_pages.EditCar.resources
+C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1Club\obj\Debug\net6.0-windows\F1Club.ChampionshipMainPage.resources

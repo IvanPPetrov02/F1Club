@@ -87,7 +87,7 @@ namespace DAL.GP_DAOs_classes
                                 ID = Convert.ToInt32(reader["circuit_id"]),
                                 Name = reader.GetString("name"),
                                 NumberOfLaps = Convert.ToInt32(reader["numberoflaps"]),
-                                Length = Convert.ToInt32(reader["length"])
+                                Length = Convert.ToDouble(reader["length"])
                             };
 
                             GP gp = new GP

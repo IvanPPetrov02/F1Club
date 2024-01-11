@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            btnRefresh = new Button();
             btnTeams = new Button();
             btnDrivers = new Button();
-            btnCircuits = new Button();
             formsPlot1 = new ScottPlot.FormsPlot();
             SuspendLayout();
             // 
@@ -47,17 +45,6 @@
             label1.TabIndex = 21;
             label1.Text = "Statistics";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // btnRefresh
-            // 
-            btnRefresh.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnRefresh.Location = new Point(1565, 822);
-            btnRefresh.Margin = new Padding(4, 5, 4, 5);
-            btnRefresh.Name = "btnRefresh";
-            btnRefresh.Size = new Size(121, 71);
-            btnRefresh.TabIndex = 20;
-            btnRefresh.Text = "Refresh";
-            btnRefresh.UseVisualStyleBackColor = true;
             // 
             // btnTeams
             // 
@@ -83,24 +70,12 @@
             btnDrivers.UseVisualStyleBackColor = true;
             btnDrivers.Click += btnDrivers_Click;
             // 
-            // btnCircuits
-            // 
-            btnCircuits.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCircuits.Location = new Point(281, 825);
-            btnCircuits.Margin = new Padding(4, 5, 4, 5);
-            btnCircuits.Name = "btnCircuits";
-            btnCircuits.Size = new Size(121, 71);
-            btnCircuits.TabIndex = 22;
-            btnCircuits.Text = "Circuits";
-            btnCircuits.UseVisualStyleBackColor = true;
-            btnCircuits.Click += btnCircuits_Click;
-            // 
             // formsPlot1
             // 
             formsPlot1.Location = new Point(22, 60);
             formsPlot1.Margin = new Padding(6, 5, 6, 5);
             formsPlot1.Name = "formsPlot1";
-            formsPlot1.Size = new Size(418, 358);
+            formsPlot1.Size = new Size(1664, 752);
             formsPlot1.TabIndex = 23;
             // 
             // StatisticsMainPage
@@ -108,9 +83,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(formsPlot1);
-            Controls.Add(btnCircuits);
             Controls.Add(label1);
-            Controls.Add(btnRefresh);
             Controls.Add(btnTeams);
             Controls.Add(btnDrivers);
             Name = "StatisticsMainPage";
@@ -122,10 +95,8 @@
         #endregion
 
         private Label label1;
-        private Button btnRefresh;
         private Button btnTeams;
         private Button btnDrivers;
-        private Button btnCircuits;
         private ScottPlot.FormsPlot formsPlot1;
     }
 }

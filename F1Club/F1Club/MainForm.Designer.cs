@@ -32,14 +32,14 @@
             btnDriver = new Button();
             btnTeam = new Button();
             btnCircuit = new Button();
-            btnGP = new Button();
+            btnGPs = new Button();
             btnChampionship = new Button();
             pictureBox1 = new PictureBox();
             panelForms = new Panel();
             btnLogout = new Button();
             btnProfiles = new Button();
             btnStatistics = new Button();
-            btnBullets = new Button();
+            btnCars = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -79,17 +79,17 @@
             btnCircuit.UseVisualStyleBackColor = true;
             btnCircuit.Click += btnCircuit_Click;
             // 
-            // btnGP
+            // btnGPs
             // 
-            btnGP.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnGP.Location = new Point(884, 20);
-            btnGP.Margin = new Padding(4, 5, 4, 5);
-            btnGP.Name = "btnGP";
-            btnGP.Size = new Size(171, 140);
-            btnGP.TabIndex = 3;
-            btnGP.Text = "GPs";
-            btnGP.UseVisualStyleBackColor = true;
-            btnGP.Click += btnGP_Click;
+            btnGPs.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGPs.Location = new Point(884, 20);
+            btnGPs.Margin = new Padding(4, 5, 4, 5);
+            btnGPs.Name = "btnGPs";
+            btnGPs.Size = new Size(171, 140);
+            btnGPs.TabIndex = 3;
+            btnGPs.Text = "Grand Prixes";
+            btnGPs.UseVisualStyleBackColor = true;
+            btnGPs.Click += btnGP_Click;
             // 
             // btnChampionship
             // 
@@ -158,17 +158,17 @@
             btnStatistics.UseVisualStyleBackColor = true;
             btnStatistics.Click += btnStatistics_Click;
             // 
-            // btnBullets
+            // btnCars
             // 
-            btnBullets.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnBullets.Location = new Point(526, 20);
-            btnBullets.Margin = new Padding(4, 5, 4, 5);
-            btnBullets.Name = "btnBullets";
-            btnBullets.Size = new Size(171, 140);
-            btnBullets.TabIndex = 10;
-            btnBullets.Text = "Bullets";
-            btnBullets.UseVisualStyleBackColor = true;
-            btnBullets.Click += btnBullets_Click;
+            btnCars.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCars.Location = new Point(526, 20);
+            btnCars.Margin = new Padding(4, 5, 4, 5);
+            btnCars.Name = "btnCars";
+            btnCars.Size = new Size(171, 140);
+            btnCars.TabIndex = 10;
+            btnCars.Text = "Cars";
+            btnCars.UseVisualStyleBackColor = true;
+            btnCars.Click += btnBullets_Click;
             // 
             // MainForm
             // 
@@ -176,14 +176,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1733, 1084);
             Controls.Add(btnDriver);
-            Controls.Add(btnBullets);
+            Controls.Add(btnCars);
             Controls.Add(btnStatistics);
             Controls.Add(btnProfiles);
             Controls.Add(btnLogout);
             Controls.Add(panelForms);
             Controls.Add(pictureBox1);
             Controls.Add(btnChampionship);
-            Controls.Add(btnGP);
+            Controls.Add(btnGPs);
             Controls.Add(btnCircuit);
             Controls.Add(btnTeam);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -204,13 +204,13 @@
         private Button btnDriver;
         private Button btnTeam;
         private Button btnCircuit;
-        private Button btnGP;
+        private Button btnGPs;
         private Button btnChampionship;
         private PictureBox pictureBox1;
         private Panel panelForms;
         private Button btnLogout;
         private Button btnProfiles;
         private Button btnStatistics;
-        private Button btnBullets;
+        private Button btnCars;
     }
 }

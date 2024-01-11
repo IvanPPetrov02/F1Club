@@ -68,7 +68,7 @@ namespace DAL
                                         ID = Convert.ToInt32(reader["circuit_id"]),
                                         Name = reader.GetString("circuit_name"),
                                         NumberOfLaps = Convert.ToInt32(reader["numberoflaps"]),
-                                        Length = Convert.ToInt32(reader["length"])
+                                        Length = Convert.ToDouble(reader["length"])
                                     }
                                 },
                                 Driver = new Driver

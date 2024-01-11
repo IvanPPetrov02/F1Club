@@ -13,7 +13,7 @@ namespace F1ClubWeb.Pages
         public List<Team> Teams { get; set; }
         public void OnGet()
         {
-            Teams = teamManager.GetAllTeams();
+            Teams = teamManager.GetAllTeamsRefresh();
         }
     }
 }

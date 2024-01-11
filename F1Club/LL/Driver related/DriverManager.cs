@@ -99,11 +99,6 @@ namespace LL.Driver_related
             throw new NotImplementedException();
         }
 
-        public Championship GetBestSeason(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public int GetCurrentPoints(int id)
         {
             throw new NotImplementedException();
@@ -148,6 +143,12 @@ namespace LL.Driver_related
         {
             PopulateIfEmpty();
             return Drivers.ToList();
+        }
+
+        public List<Driver>? GetDriversByTeamID(int id)
+        {
+            PopulateIfEmpty();
+            return Drivers?.Where(driver => driver.Team.ID == id).ToList();
         }
     }
 }

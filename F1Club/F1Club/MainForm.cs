@@ -26,6 +26,7 @@ namespace F1Club
         GPMainPage gpMainPage = new();
         StatisticsMainPage statisticsMainPage = new();
         CarMainPage carMainPage = new();
+        ChampionshipMainPage championshipMainPage = new();
         public MainForm(Profile profile)
         {
             InitializeComponent();
@@ -50,6 +51,8 @@ namespace F1Club
             statisticsMainPage.Hide();
             panelForms.Controls.Add(carMainPage);
             carMainPage.Hide();
+            panelForms.Controls.Add(championshipMainPage);
+            championshipMainPage.Hide();
         }
 
         private void ShowPage(UserControl page)
@@ -94,7 +97,7 @@ namespace F1Club
 
         private void btnChampionship_Click(object sender, EventArgs e)
         {
-
+            ShowPage(championshipMainPage);
         }
 
         private void btnProfiles_Click(object sender, EventArgs e)

@@ -75,9 +75,10 @@
             // 
             // nudLength
             // 
+            nudLength.DecimalPlaces = 3;
             nudLength.Location = new Point(246, 53);
             nudLength.Margin = new Padding(4, 3, 4, 3);
-            nudLength.Maximum = new decimal(new int[] { 100000, 0, 0, 0 });
+            nudLength.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             nudLength.Name = "nudLength";
             nudLength.Size = new Size(187, 31);
             nudLength.TabIndex = 59;

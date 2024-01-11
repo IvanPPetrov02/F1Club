@@ -11,7 +11,7 @@ namespace LL
         public int ID { get; set; }
         public string Name { get; set; }
         public int NumberOfLaps { get; set; }
-        public int Length { get; set; }
+        public double Length { get; set; }
         public int NumberOfCorners { get; set; }
         public double RoadScore { get; set; }
 

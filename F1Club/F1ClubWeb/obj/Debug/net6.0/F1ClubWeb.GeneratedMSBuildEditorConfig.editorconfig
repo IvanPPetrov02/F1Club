@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\vanit\Desktop\Individual project\f1club\F1Club\F1ClubWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/ChampionshipDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbXBpb25zaGlwRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Championships.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbXBpb25zaGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/ChangePersonalInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbmdlUGVyc29uYWxJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/CircuitDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2lyY3VpdERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Circuits.cshtml]
@@ -38,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/GPDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR1BEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/GrandPrix.cshtml]
@@ -70,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/SignOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbk91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/TeamDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanit/Desktop/Individual project/f1club/F1Club/F1ClubWeb/Pages/Teams.cshtml]

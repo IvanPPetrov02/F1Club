@@ -1,0 +1,76 @@
+﻿@page
+@model F1ClubWeb.Pages.ChampionshipDetailsModel
+@{
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-danger">Championship @Model.Championship.Year</h2>
+            @if (Model.Championship.Champion != null && Model.Championship.ChampionTeam !=null)
+            {
+                <p class="text-danger">Champion: @Model.Championship.Champion.FullName</p>
+                <p class="text-danger">Champion Team: @Model.Championship.ChampionTeam.Name</p>
+            }
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h3 class="text-danger">Driver Standings</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Driver</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var position in Model.Championship.EndPositions)
+                    {
+                        <tr>
+                            <td>@position.Position</td>
+                            <td>@position.driver.FirstName @position.driver.LastName</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h3 class="text-danger">Team Standings</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Team</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var teamPosition in Model.Championship.EndTeamPositions)
+                    {
+                        <tr>
+                            <td>@teamPosition.Position</td>
+                            <td>@teamPosition.team.Name</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h3 class="text-danger">Grand Prix List</h3>
+            <ul>
+                @foreach (var gp in Model.Championship.GPs)
+                {
+                    <li>@gp.Circuit.Name - @gp.DateOfGP.ToShortDateString()</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+<a href="/Championships" class="btn btn-danger mt-3">Back to Championships</a>

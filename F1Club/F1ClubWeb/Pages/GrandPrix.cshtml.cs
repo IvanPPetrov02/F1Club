@@ -15,6 +15,7 @@ namespace F1ClubWeb.Pages
 
         [BindProperty]
         public DateOnly Date { get; set; }
+
         public void OnGet()
         {
             GrandPrixes = gpManager.GetAllGPs();

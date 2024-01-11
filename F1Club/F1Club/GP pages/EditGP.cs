@@ -16,37 +16,37 @@ using static LL.Profile_related.ProfileManager;
 
 namespace F1Club.GP_pages
 {
-	public partial class EditGP : Form
-	{
-		GPManager gpManager = new GPManager(new GPDAO());
-		CircuitManager circuitManager = new CircuitManager(new CircuitDAO());
-		GP _gp = new();
+    public partial class EditGP : Form
+    {
+        GPManager gpManager = new GPManager(new GPDAO());
+        CircuitManager circuitManager = new CircuitManager(new CircuitDAO());
+        GP _gp = new();
 
-		public EditGP(GP gp)
-		{
-			InitializeComponent();
-			LoadCircuits();
-			_gp = gp;
-			cbxCircuits.SelectedItem = gp.Circuit;
-			dtpDateOfGP.Text = gp.DateOfGP.ToString();
-		}
+        public EditGP(GP gp)
+        {
+            InitializeComponent();
+            LoadCircuits();
+            _gp = gp;
+            cbxCircuits.SelectedValue = gp.Circuit.ID;
+            dtpDateOfGP.Text = gp.DateOfGP.ToString();
+        }
 
-		private void LoadCircuits()
-		{
-			List<Circuit>? circuits = circuitManager.GetAllCircuits();
-			cbxCircuits.DataSource = circuits;
-			cbxCircuits.DisplayMember = "Name";
-			cbxCircuits.ValueMember = "ID";
-		}
+        private void LoadCircuits()
+        {
+            List<Circuit>? circuits = circuitManager.GetAllCircuits();
+            cbxCircuits.DataSource = circuits;
+            cbxCircuits.DisplayMember = "Name";
+            cbxCircuits.ValueMember = "ID";
+        }
 
-		private void btnCancel_Click(object sender, EventArgs e)
-		{
-			Close();
-		}
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
 
-		private void btnEdit_Click(object sender, EventArgs e)
-		{
-			DateOnly DateOfGP = DateOnly.FromDateTime(dtpDateOfGP.Value);
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            DateOnly DateOfGP = DateOnly.FromDateTime(dtpDateOfGP.Value);
             try
             {
                 gpManager.UpdateGP(new GP(_gp.ID, (Circuit)cbxCircuits.SelectedItem, DateOfGP));
@@ -64,5 +64,5 @@ namespace F1Club.GP_pages
 
             }
         }
-	}
+    }
 }

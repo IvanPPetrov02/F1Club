@@ -25,7 +25,7 @@ namespace F1Club.GP_pages
             InitializeComponent();
             _circuit = circuit;
             tbxName.Text = circuit.Name;
-            nudLength.Value = circuit.Length;
+            nudLength.Value = Convert.ToDecimal(circuit.Length);
             nudNrOfLaps.Value = circuit.NumberOfLaps;
             nudNrOfCorners.Value = circuit.NumberOfCorners;
             nudRoadScore.Value = (decimal)circuit.RoadScore;

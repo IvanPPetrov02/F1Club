@@ -47,6 +47,13 @@ namespace F1Club.Driver_pages
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            var isNumeric = int.TryParse(tbxNumber.Text, out int n);
+            if (!isNumeric)
+            {
+                MessageBox.Show("Number must be a number.");
+                return;
+            }
+
             int number = Convert.ToInt32(tbxNumber.Text);
             if (number < 0 || number > 999)
             {

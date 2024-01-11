@@ -321,7 +321,7 @@ namespace F1Club.GP_pages
             else
             {
                 nudFThr1.Enabled = false;
-                nudFThr1.Value = 0;
+                nudFThr1.Value = 3;
                 nudFTmin1.Enabled = false;
                 nudFTmin1.Value = 0;
                 nudFTsec1.Enabled = false;

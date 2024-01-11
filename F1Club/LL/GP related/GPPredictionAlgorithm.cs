@@ -7,16 +7,10 @@ using System.Threading.Tasks;
 
 namespace LL.GP_related
 {
-    public class RacePredictionAlgorithm
+    public class GPPredictionAlgorithm
     {
         private List<Car> cars;
         private List<GPResult> pastRaceResults;
-
-        public RacePredictionAlgorithm(List<Car> cars, List<GPResult> pastRaceResults)
-        {
-            this.cars = cars;
-            this.pastRaceResults = pastRaceResults;
-        }
 
         public List<(Driver driver, int predictedPosition)> PredictPodium(GP gp, List<GPResult> pastResults, List<Car> cars, List<Driver> drivers)
         {
@@ -28,7 +22,7 @@ namespace LL.GP_related
                 var car = cars.FirstOrDefault(c => c.Team.ID == driver.Team.ID);
                 if (car != null)
                 {
-                    score += EvaluateDriverHistoricalPerformance(car, gp.Circuit, pastResults);
+                    score += EvaluateDriverHistoricalPerformance(gp.Circuit, pastResults, driver);
                     score += EvaluateCarPerformance(car, gp.Circuit);
                 }
                 score += EvaluateTeamPerformance(driver, pastResults);
@@ -39,7 +33,8 @@ namespace LL.GP_related
                                             .Select((entry, index) => (entry.Key, predictedPosition: index + 1))
                                             .ToList();
 
-            return sortedDrivers.GetRange(0, 3);
+            int rangeCount = Math.Min(3, sortedDrivers.Count);
+            return sortedDrivers.GetRange(0, rangeCount);
         }
 
 
@@ -59,13 +54,13 @@ namespace LL.GP_related
         }
 
 
-        private double EvaluateTeamPerformance(Driver driver, List<GPResult> pastResults)
+        private int EvaluateTeamPerformance(Driver driver, List<GPResult> pastResults)
         {
             var teamResults = pastResults.Where(r => r.Driver.Team.ID == driver.Team.ID);
             if (!teamResults.Any()) return 0;
 
             double averagePosition = teamResults.Average(r => r.Place);
-            double score = 0;
+            int score = 0;
 
             if (averagePosition <= 2)
             {
@@ -89,52 +84,66 @@ namespace LL.GP_related
 
 
 
-        private double EvaluateDriverHistoricalPerformance(Car car, Circuit circuit, List<GPResult> pastResults)
+        private int EvaluateDriverHistoricalPerformance(Circuit circuit, List<GPResult> pastResults, Driver driver)
         {
-            var driverResults = pastResults.Where(r => r.Driver.Team.ID == car.Team.ID && r.GP.Circuit.ID == circuit.ID);
-            double score = 0;
+            var driverResults = pastResults.Where(r => r.Driver.ID == driver.ID && r.GP.Circuit.ID == circuit.ID);
+            int score = 0;
 
-            foreach (var result in driverResults)
+            if (driverResults.Any()) 
             {
-                switch (result.Place)
+                foreach (var result in driverResults)
                 {
-                    case 1:
-                        score += 25;
-                        break;
-                    case 2:
-                        score += 18;
-                        break;
-                    case 3:
-                        score += 15;
-                        break;
-                    case 4:
-                        score += 12;
-                        break;
-                    case 5:
-                        score += 10;
-                        break;
-                    case 6:
-                        score += 8;
-                        break;
-                    case 7:
-                        score += 6;
-                        break;
-                    case 8:
-                        score += 4;
-                        break;
-                    case 9:
-                        score += 2;
-                        break;
-                    case 10:
-                        score += 1;
-                        break;
-                    default:
-                        score += 0;
-                        break;
+                    switch (result.Place)
+                    {
+                        case 1:
+                            score += 25;
+                            break;
+                        case 2:
+                            score += 18;
+                            break;
+                        case 3:
+                            score += 15;
+                            break;
+                        case 4:
+                            score += 12;
+                            break;
+                        case 5:
+                            score += 10;
+                            break;
+                        case 6:
+                            score += 8;
+                            break;
+                        case 7:
+                            score += 6;
+                            break;
+                        case 8:
+                            score += 4;
+                            break;
+                        case 9:
+                            score += 2;
+                            break;
+                        case 10:
+                            score += 1;
+                            break;
+                        default:
+                            score += 0;
+                            break;
+                    }
                 }
             }
 
             return score;
         }
+
+        //private bool CheckIfCarIsSimilarToLastYear(Car car, List<GPResult> pastResults)
+        //{
+        //    var lastYear = DateTime.Now.Year - 1;
+        //    var lastYearCar = cars.FirstOrDefault(c => c.Team.ID == car.Team.ID && c.SeasonUsed.Year == lastYear);
+
+        //    if (lastYearCar == null) return false;
+
+        //    return car.TopSpeedPossible == lastYearCar.TopSpeedPossible && car.AccelerationScore == lastYearCar.AccelerationScore && car.BreakingScore == lastYearCar.BreakingScore && car.HandlingScore == lastYearCar.HandlingScore;
+        //}
+
     }
 }
