@@ -15,7 +15,7 @@ namespace LL
         public int NumberOfCorners { get; set; }
         public double RoadScore { get; set; }
 
-        public Circuit(int iD, string name, int numberOfLaps, int length, int numberOfCorners, double roadScore)
+        public Circuit(int iD, string name, int numberOfLaps, double length, int numberOfCorners, double roadScore)
         {
             ID = iD;
             Name = name;

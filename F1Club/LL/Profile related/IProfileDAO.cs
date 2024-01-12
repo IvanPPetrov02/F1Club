@@ -13,7 +13,7 @@ namespace LL
         void DeleteProfile(int id);
         void UpdateProfile(Profile Profile);
 		List<Profile> GetAllProfiles();
-		Profile Login(string email, string password);
+		Profile Login(string email);
         bool ProfileExistsByEmail(string email);
         void ChangePassword(string passwordNew, int id);
 		int GetLastInsertedId();

@@ -7,43 +7,44 @@ using System.Threading.Tasks;
 
 namespace UnitTests.Fakers
 {
-    public class PrfoileDAOFake : IProfileDAO
+    public class ProfileDAOFake : IProfileDAO
     {
-        List<Profile> profiles = new List<Profile>();
+        private List<Profile> profiles = new List<Profile>();
+        private int lastInsertedId = 0;
 
-        public bool ChangePassword(string passwordNew, string passwordCurrent, int id)
+        public void ChangePassword(string passwordNew, int id)
         {
-            throw new NotImplementedException();
+            var profile = profiles.FirstOrDefault(p => p.ID == id);
+            if (profile != null)
+            {
+                profile.Password = passwordNew;
+            }
         }
 
-        public void CreateProfile(Profile Profile)
+        public void CreateProfile(Profile profile)
         {
-            profiles.Add(Profile);
+            profile.ID = ++lastInsertedId;
+            profiles.Add(profile);
         }
 
-        public bool DeleteProfile(int id)
+        public void DeleteProfile(int id)
         {
-            throw new NotImplementedException();
+            profiles.RemoveAll(p => p.ID == id);
         }
 
         public List<Profile> GetAllProfiles()
         {
-            return profiles;
+            return new List<Profile>(profiles);
         }
 
-        public List<Profile> GetAllUsersByUserType(UserType userType)
+        public int GetLastInsertedId()
         {
-            throw new NotImplementedException();
+            return lastInsertedId;
         }
 
-        public int GetLastID()
+        public Profile Login(string email)
         {
-            return profiles.Count;
-        }
-
-        public Profile Login(string email, string password)
-        {
-            throw new NotImplementedException();
+            return profiles.FirstOrDefault(p => p.Email == email);
         }
 
         public bool ProfileExistsByEmail(string email)
@@ -51,9 +52,16 @@ namespace UnitTests.Fakers
             return profiles.Any(p => p.Email == email);
         }
 
-        public bool UpdateProfile(Profile Profile)
+        public void UpdateProfile(Profile updatedProfile)
         {
-            throw new NotImplementedException();
+            var profile = profiles.FirstOrDefault(p => p.ID == updatedProfile.ID);
+            if (profile != null)
+            {
+                profiles.Remove(profile);
+                profiles.Add(updatedProfile);
+            }
         }
     }
+
+
 }

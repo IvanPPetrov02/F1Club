@@ -166,7 +166,7 @@ namespace LL.Profile_related
 
 		public Profile Login(string email, string password)
 		{
-            Profile profile = profileDAO.Login(email, password);
+            Profile profile = profileDAO.Login(email);
             if (PasswordCheck(password, profile.Password))
             {
                 return profile;

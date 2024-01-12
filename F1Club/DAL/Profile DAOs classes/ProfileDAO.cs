@@ -138,7 +138,7 @@ namespace DAL
             return profiles;
         }
 
-        public Profile Login(string email, string password)
+        public Profile Login(string email)
         {
             using (MySqlConnection conn = new MySqlConnection(IConnection.GetConnectionString()))
             {

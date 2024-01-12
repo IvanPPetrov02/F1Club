@@ -61,7 +61,7 @@ namespace LL.GP_related
 
         public List<GPResult> GetAllGPResults()
         {
-            RefreshGPsFromDatabase();
+            PopulateIfEmpty();
             return GPResults;
         }
 
